@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.images-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images-div img {
+    width: 300px;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.images-div img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .images-div {
+        flex-direction: column;
+    }
+
+    .images-div img {
+        width: 150px;
+    }
+}

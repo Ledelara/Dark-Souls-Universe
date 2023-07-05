@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+@media (max-width: 600px) {
+    .footer-container h1 {
+        font-size: 20px;
+    }
+}

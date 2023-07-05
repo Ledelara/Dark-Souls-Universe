@@ -1,0 +1,57 @@
+.Dark_Souls-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.Dark_Souls-container img {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.Dark_Souls-container p {
+    font-size: 22px;
+}
+
+.sinopse {
+    padding: 4em;
+}
+
+button {
+    margin-top: 4em;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    background-color: #363636;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .Dark_Souls-container h1 {
+        font-size: 20px;
+    }
+    .Dark_Souls-container img {
+        width: 200px;
+    }
+
+    .Dark_Souls-container p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 0.6em;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
